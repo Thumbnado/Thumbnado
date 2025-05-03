@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnado</title>
+    <link rel="icon" href="assets/mrjdb.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">Thumbnado</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#works">My Works</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Home Section -->
+    <section id="home">
+        <div id="particles-js"></div>
+        <div class="container profile-container">
+            <img src="assets/mrjdb.jpg" alt="Profile Image" class="profile-img">
+            <h1 class="title">I am a Thumbnail Designer</h1>
+            <a href="#works"><button class="wol">View Works</button></a>
+            <p class="subtitle">Creating eye-catching thumbnails that boost your click-through rates</p>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">19</div>
+                    <div class="stat-text">Years Old</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1.5+</div>
+                    <div class="stat-text">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">250+</div>
+                    <div class="stat-text">Happy Clients</div>
+                </div>
+            </div>
+            
+            <div class="tools">
+                <h3>Tools I Use</h3>
+                <div class="tools-list">
+                    <div class="tool-item">Photoshop</div>
+                    <div class="tool-item">Photopea</div>
+                    <div class="tool-item">Canva</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- My Works Section -->
+    <section id="works">
+        <div class="container">
+            <h2 class="section-title">My Works</h2>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterGallery('all')">All</button>
+                <button class="filter-btn" onclick="filterGallery('Films/Podcasts')">Films/Podcasts</button>
+                <button class="filter-btn" onclick="filterGallery('facts')">Facts</button>
+                <button class="filter-btn" onclick="filterGallery('vlogs')">Vlogs</button>
+                <button class="filter-btn" onclick="filterGallery('Tech/Educatinal')">Tech/Educational</button>
+            </div>
+            
+            <div class="gallery">
+                <!-- Gaming Thumbnails -->
+                <div class="thumbnail">
+                    <img src="assets/facts/fact1.jpg" data-tag="facts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/facts/fact2.jpg" data-tag="facts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/facts/fact3.jpg" data-tag="facts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/facts/fact4.jpg" data-tag="facts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/facts/fact5.jpg" data-tag="facts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/facts/fact6.jpg" data-tag="facts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/facts/fact7.jpg" data-tag="facts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/facts/fact8.jpg" data-tag="facts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/facts/fact9.jpg" data-tag="facts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/facts/fact10.jpg" data-tag="facts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog1.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog2.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog3.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog4.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog5.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog6.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog7.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog8.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog9.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog10.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog11.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog12.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog13.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog14.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog15.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog16.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog17.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog18.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog19.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog20.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog21.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog22.jpg" data-tag="vlogs">
+                </div>
+            
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog24.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog25.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog26.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/vlogs/vlog27.jpg" data-tag="vlogs">
+                </div> 
+                 <div class="thumbnail">
+                    <img src="assets/vlogs/vlog28.jpg" data-tag="vlogs">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/FilmsOrPodcasts/fp1.jpg" data-tag="Films/Podcasts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/FilmsOrPodcasts/fp2.jpg" data-tag="Films/Podcasts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/FilmsOrPodcasts/fp3.jpg" data-tag="Films/Podcasts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/FilmsOrPodcasts/fp4.jpg" data-tag="Films/Podcasts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/FilmsOrPodcasts/fp5.jpg" data-tag="Films/Podcasts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/FilmsOrPodcasts/fp6.jpg" data-tag="Films/Podcasts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/FilmsOrPodcasts/fp7.jpg" data-tag="Films/Podcasts">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/TechOrEducation/TE1.jpg" data-tag="Tech/Educatinal">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/TechOrEducation/TE2.jpg" data-tag="Tech/Educatinal">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/TechOrEducation/TE3.jpg" data-tag="Tech/Educatinal">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/TechOrEducation/TE4.jpg" data-tag="Tech/Educatinal">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/TechOrEducation/TE5.jpg" data-tag="Tech/Educatinal">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/TechOrEducation/TE6.jpg" data-tag="Tech/Educatinal">
+                </div>
+            
+        </div>
+    </section>
+    
+    <!-- Contact Me Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="contact-title">Let's Work Together</h2>
+            <p class="contact-subtitle">Have a project in mind? Get in touch and let's create something amazing!</p>
+            
+            <a href="https://wa.me/message/NGNRKFJT2COUF1" class="whatsapp-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i> Message on WhatsApp
+            </a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Thumbnado. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Font Awesome for WhatsApp icon -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>cx
